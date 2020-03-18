@@ -1,2 +1,0 @@
-# ReactPoke
-Created with CodeSandbox
