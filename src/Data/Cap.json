@@ -1,5 +1,6 @@
 {
   "Griffe": ["Griffe", 40, 35, 100],
   "Charge": ["Charge", 50, 35, 100],
-  "Eclair": ["Eclair", 40, 30, 100]
+  "Eclair": ["Eclair", 40, 30, 100],
+  "Gaz Toxik": ["Gaz Toxik",-1,40,90]
 }
