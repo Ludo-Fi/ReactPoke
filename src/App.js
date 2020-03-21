@@ -1,9 +1,8 @@
 import React from "react";
 import "./styles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Bulbizarre from "../Player/Bulbizarre.png";
-import Carapuce from "../Player/Carapuce.png";
-import Salamèche from "../Player/Salamèche.png";
+import pokemonData from "./Data/Pokemon"
+
 
 function Click() {
   document.getElementById("button").className = "btn btn-primary";
@@ -29,7 +28,7 @@ export default function App() {
       <br />
       <div className="row">
         <div className="col-md-4">
-          <img src={Bulbizarre} alt="Bulbizarre" width="150em" />
+          <img src={pokemonData["Bulbizarre"][0]} alt="Bulbizarre" width="150em" />
           <br />
           <label>
             <input
@@ -48,7 +47,7 @@ export default function App() {
           </p>
         </div>
         <div className="col-md-4">
-          <img src={Salamèche} alt="Salamèche" width="150em" />
+          <img src={pokemonData["Salameche"][0]} alt="Salamèche" width="150em" />
           <br />
           <label>
             <input
@@ -56,7 +55,7 @@ export default function App() {
               onClick={Click}
               type="radio"
               name="caracter"
-              value="Salamèche"
+              value="Salameche"
             />
             Salamèche
           </label>
@@ -68,7 +67,7 @@ export default function App() {
           </p>
         </div>
         <div className="col-md-4">
-          <img src={Carapuce} alt="Carapuce" width="150em" />
+          <img src={pokemonData["Carapuce"][0]} alt="Carapuce" width="150em" />
           <br />
           <label>
             <input

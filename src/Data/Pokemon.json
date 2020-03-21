@@ -1,0 +1,7 @@
+{
+  "Salameche":  ["/Player/Salamèche.png", "Salamèche", 39, 52, 43, 60, 50, 65, "Griffe"],
+  "Carapuce":  ["/Player/Carapuce.png", "Carapuce", 44, 48, 65, 50, 64, 43, "Charge"],
+  "Bulbizarre": ["/Player/Bulbizarre.png", "Bulbizarre", 45, 49, 49, 65, 65, 45, "Charge"],
+  "Pikachu":  ["/Player/Pikachu.png", "Pikachu", 35, 55, 40, 50, 50, 90, "Eclair"],
+  "Smogo":  ["/Player/Smogo.png", "Smogo", 40, 65, 95, 60, 45, 35, "Charge"]
+}
